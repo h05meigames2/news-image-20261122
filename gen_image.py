@@ -144,7 +144,7 @@ def scene_chart(draw, x, y, w, h):
     draw.line(pts, fill=RED, width=3)
     draw.polygon(pts + [(pts[-1][0], y + h - 4), (pts[0][0], y + h - 4)],
                  fill=(178, 34, 34, 40))
-    draw.text((x + 8, y + 4), "-2.4%", font=F_BOLD(15), fill=RED)
+    draw.text((x + w - 58, y + 4), "-2.4%", font=F_BOLD(15), fill=RED)
 
 
 def scene_shield(draw, x, y, w, h):
